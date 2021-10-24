@@ -1,0 +1,4 @@
+3 types of light.
+3 types of color.
+texture is a wrap around the object,
+Reflection texture create reflex of object. 

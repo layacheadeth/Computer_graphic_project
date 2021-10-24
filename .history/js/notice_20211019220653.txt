@@ -1,0 +1,3 @@
+3 types of light.
+3 types of color.
+texture is a wrap around the object
