@@ -1,4 +1,5 @@
-﻿
+﻿/// <reference path="js/babylon.max.js" />
+/// <reference path="js/cannon.js" />
 var canvas;
 var engine;
 var Game = {};

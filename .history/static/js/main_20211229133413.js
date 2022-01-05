@@ -1,4 +1,5 @@
-﻿
+﻿/// <reference path="js/babylon.max.js" />
+/// <reference path="js/cannon.js" />
 var canvas;
 var engine;
 var Game = {};
@@ -434,16 +435,16 @@ function CreateGround(scene) {
     return ground;
 }
 
-function createLights(scene) {
-    var light0 = new BABYLON.DirectionalLight("dir0", new BABYLON.Vector3(-.1, -1, 0), scene);
-    var light1 = new BABYLON.DirectionalLight("dir1", new BABYLON.Vector3(-1, -1, 0), scene);
+// function createLights(scene) {
+//     var light0 = new BABYLON.DirectionalLight("dir0", new BABYLON.Vector3(-.1, -1, 0), scene);
+//     var light1 = new BABYLON.DirectionalLight("dir1", new BABYLON.Vector3(-1, -1, 0), scene);
 
-}
+// }
 
 
-// import { createLights } from '/static/js/Light.js ';
+import { createLights } from './Light';
 
-// createLights(scene);
+createLights(scene);
 
 
 //create portal to switch between stages
